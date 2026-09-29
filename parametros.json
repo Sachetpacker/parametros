@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "verificado": "2026-09-29",
+  "vigencia": "Septiembre 2026",
+  "sm": 553553,
+  "topeAfpUF": 90,
+  "topeCesUF": 135.2,
+  "gratIMM": 4.75,
+  "apvTopeUF": 50,
+  "afpObligatoria": 10,
+  "salud": 7,
+  "afp": {
+    "Capital": 1.44,
+    "Cuprum": 1.44,
+    "Habitat": 1.27,
+    "Modelo": 0.58,
+    "PlanVital": 1.16,
+    "ProVida": 1.45,
+    "Uno": 0.46
+  },
+  "cesTrabIndef": 0.6,
+  "cesEmpIndef": 2.4,
+  "cesEmpFijo": 3.0,
+  "cesEmpIndef11": 0.8,
+  "cotAdicEmp": 3.5,
+  "sis": 0,
+  "mutual": 0.93,
+  "tramos": [
+    [13.5, 0, 0],
+    [30, 0.04, 0.54],
+    [50, 0.08, 1.74],
+    [70, 0.135, 4.49],
+    [90, 0.23, 11.14],
+    [120, 0.304, 17.8],
+    [310, 0.35, 23.32],
+    [1000000000000, 0.4, 38.82]
+  ],
+  "fuentes": {
+    "sm": "Sueldo mínimo vigente, ley de reajuste (verificado en varias fuentes; confirmar en dt.gob.cl)",
+    "topeAfpUF": "Superintendencia de Pensiones, tope imponible 2026: 90,0 UF (https://www.spensiones.cl/portal/institucional/594/w3-article-16885.html)",
+    "topeCesUF": "AFC, tope seguro de cesantía desde febrero 2026: 135,2 UF (https://www.afc.cl/afc-informa/noticias/empleador-conozca-el-nuevo-tope-imponible-para-2026/)",
+    "afp": "Superintendencia de Pensiones, comisiones por AFP (https://www.spensiones.cl/portal/institucional/594/w3-article-2810.html)",
+    "cesantia": "Superintendencia de Pensiones, seguro de cesantía (https://www.spensiones.cl/portal/institucional/594/w3-article-3590.html). El 0,8% del empleador con 11 años o más proviene de la Ley 19.728, art. 5.",
+    "cotAdicEmp": "Ley 21.735, calendario de reforma: 3,5% del empleador desde agosto 2026 hasta julio 2027 (https://www.spensiones.cl/portal/institucional/594/w3-propertyvalue-10906.html)",
+    "sis": "Desde agosto 2026 el SIS se integra a la cotización del empleador; se deja en 0% como aporte separado",
+    "mutual": "Depende de cada mutual y de la empresa; valor referencial editable",
+    "tramos": "SII, Impuesto Único de Segunda Categoría 2026, tramos en UTM (https://www.sii.cl/valores_y_fechas/impuesto_2da_categoria/impuesto2026.htm)",
+    "gratIMM": "Código del Trabajo, art. 50: tope de 4,75 ingresos mínimos mensuales al año"
+  }
+}
